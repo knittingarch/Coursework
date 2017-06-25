@@ -1,0 +1,34 @@
+New Project using Javascript
+
+
+Home Comic Book Collection Sorter
+
+Object: Bookshelf, Book
+Methods to Call: addBook, borrowBook, returnBook, deleteBook
+Variables: libraryIsOpen (I’m willing to lend), isFriendly (not a book thief)
+Arrays within Bookshelf: 
+
+
+
+Bookshelf (Object)
+Properties: number, room
+
+number = [1, 2, 3, 4] => 4 is only for livingRoom
+room = [“livingRoom”, “hallway”]
+
+
+Book (Object)
+Properties: name, genre, size, hardness, number, collectionType, author, artist, colorist, year, rating
+
+name:
+genre: [“children’s”, “noir”, “feminist”, “French language”, “fantasy”, “dystopian”, “pop up”, quirky”, “teen”]
+
+size:[“small”, “medium”, “large”, “oversized”]
+hardness: [“paperback”, “hardcover”]
+number:
+collectionType: [“individual”, “trade comic”]
+author: 
+artist: 
+colorist: 
+year: 
+rating: [“general”, “teen”, “mature”]

@@ -1,0 +1,45 @@
+
+Your Face
+
+“your face” is floating outside the fieldset.  It should be the legend.
+
+The first fieldset has the wrong legend.  This fieldset is for the picture, so “Your Name” doesn’t work here.  Additionally the text before the input is missing.
+
+“Image preview:” is missing from this section
+
+
+Your General Details
+“Date of birth” input should have a date type.  It has a time type instead
+Part 1
+
+Text before country selector should be “Which country”.
+
+
+Your Indicators
+Text before each slider is missing.
+
+
+Your Contact Information
+Text before check boxes is in the wrong order and not what was specified (In-app chat missing)
+
+The submit button should be outside the fieldsets.
+
+
+Suggestions
+Avoid id/class names with spaces as it could be parsed oddly as two different entries.
+
+More attention to detail with respect to the text requested.
+
+Inputs are null fields.  They don’t have closing tags.
+
+
+
+Part 2
+
+The labels of the checkbox and the radio needs to have width:auto.  You used a class but applied it to the label of the checkbox.
+
+For the words on both sides of the two range, you can use any appropriate style e.g. text-align:center.  Not sure what the class was supposed to do here.
+
+Part 3
+
+Looks good.  The picture isn’t shown on the page because you are missing the <img id=“preview” /> 

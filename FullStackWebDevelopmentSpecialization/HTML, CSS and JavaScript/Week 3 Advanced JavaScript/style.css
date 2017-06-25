@@ -1,0 +1,15 @@
+#leftside {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+#rightside {
+    position:absolute;
+    left: 500px;
+    width: 500px;
+    height: 500px;
+    border-left: 1px solid black;
+}
+img {
+    position: absolute;
+}
